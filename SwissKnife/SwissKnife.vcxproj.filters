@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="拓展">
+      <UniqueIdentifier>{16e2c4b5-73aa-4c82-97cb-59ba92b1957c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{91f814e8-2cf0-4864-98e1-49eae4d45150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主界面">
+      <UniqueIdentifier>{6defce18-070c-4bf1-8f08-2ed5d3cbeedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_ProcessDlg">
+      <UniqueIdentifier>{8fe0b18e-5f64-4adf-8284-61f8abae6e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_ProcessDlg\Process">
+      <UniqueIdentifier>{ec44904a-04c4-4be8-b2af-d94d6043fda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_FileDlg">
+      <UniqueIdentifier>{a8afa65c-8ede-4297-af99-74dc08efe3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_RegisterDlg">
+      <UniqueIdentifier>{c2b8c8b3-1afe-4f3a-b7ed-e11c3edfb29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_SoftwareDlg">
+      <UniqueIdentifier>{13481971-b41a-4182-af24-bffeb5e3b9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_CPUDlg">
+      <UniqueIdentifier>{9bfbd49f-e31e-4fd2-8a31-3b0a7e250928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_ServerDlg">
+      <UniqueIdentifier>{6976d590-c432-4848-add6-c251aa2dc223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_CPUDlg\HostInfo">
+      <UniqueIdentifier>{20ddebdc-79a5-448a-8f61-acc6e7d5d9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_StartUpDlg">
+      <UniqueIdentifier>{3a6e5b19-4318-4bd8-87f7-01b932a665f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child_WindowDlg">
+      <UniqueIdentifier>{10faab76-f80c-4608-aaaf-226bd287e908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SwissKnife.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="拓展\TrueColorToolBar.h">
+      <Filter>拓展</Filter>
+    </ClInclude>
+    <ClInclude Include="SwissKnifeDlg.h">
+      <Filter>主界面</Filter>
+    </ClInclude>
+    <ClInclude Include="HostInfo.h">
+      <Filter>Child_CPUDlg\HostInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Child_ProcessDlg\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_ProcessDlg.h">
+      <Filter>Child_ProcessDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_FileDlg.h">
+      <Filter>Child_FileDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_RegisterDlg.h">
+      <Filter>Child_RegisterDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterOperation.h">
+      <Filter>Child_RegisterDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_SoftwareDlg.h">
+      <Filter>Child_SoftwareDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_CPUDlg.h">
+      <Filter>Child_CPUDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_ServerDlg.h">
+      <Filter>Child_ServerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_StartUpDlg.h">
+      <Filter>Child_StartUpDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Child_WindowDlg.h">
+      <Filter>Child_WindowDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLCheck.h">
+      <Filter>Child_ProcessDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="_sm4.h">
+      <Filter>Child_FileDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SwissKnife.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拓展\TrueColorToolBar.cpp">
+      <Filter>拓展</Filter>
+    </ClCompile>
+    <ClCompile Include="SwissKnifeDlg.cpp">
+      <Filter>主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="HostInfo.cpp">
+      <Filter>Child_CPUDlg\HostInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Child_ProcessDlg\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_ProcessDlg.cpp">
+      <Filter>Child_ProcessDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_FileDlg.cpp">
+      <Filter>Child_FileDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_RegisterDlg.cpp">
+      <Filter>Child_RegisterDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterOperation.cpp">
+      <Filter>Child_RegisterDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_SoftwareDlg.cpp">
+      <Filter>Child_SoftwareDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_CPUDlg.cpp">
+      <Filter>Child_CPUDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_ServerDlg.cpp">
+      <Filter>Child_ServerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_StartUpDlg.cpp">
+      <Filter>Child_StartUpDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Child_WindowDlg.cpp">
+      <Filter>Child_WindowDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLCheck.cpp">
+      <Filter>Child_ProcessDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="_sm4.cpp">
+      <Filter>Child_FileDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SwissKnife.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SwissKnife.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SwissKnife.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap\1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap\ToolBar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap\15.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap\123.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\11.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dword.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\string.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

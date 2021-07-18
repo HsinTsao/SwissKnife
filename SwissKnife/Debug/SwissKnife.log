@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  正在跳过...(未检测到相关更改)
+  stdafx.cpp
+cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  正在跳过...(未检测到相关更改)
+  Child_CPUDlg.cpp
+  SwissKnife.vcxproj -> E:\SwissKnife\SwissKnife\Debug\SwissKnife.exe
+  SwissKnife.vcxproj -> E:\SwissKnife\SwissKnife\Debug\SwissKnife.pdb (Full PDB)

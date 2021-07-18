@@ -1,0 +1,6 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  HostInfo.cpp
+e:\swissknife\swissknife\swissknife\hostinfo.cpp(66): warning C4996: 'GetVersion': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+  SwissKnife.vcxproj -> E:\SwissKnife\SwissKnife\x64\Debug\SwissKnife.exe
+  SwissKnife.vcxproj -> E:\SwissKnife\SwissKnife\x64\Debug\SwissKnife.pdb (Full PDB)
